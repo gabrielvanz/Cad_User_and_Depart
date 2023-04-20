@@ -1,0 +1,6 @@
+2023-04-19 21:31:50,468 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2023-04-19 21:33:23,431 [Worker-12: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: br.edu.atitus.pooavancado:CadUsuario:0.0.1-SNAPSHOT @ C:\Users\GABRI\OneDrive\Área de Trabalho\Ciências da Computação\3° Semestre\POO - Avançada\Spring Boot + Java\CadUsuario\pom.xml.
+2023-04-19 21:33:24,913 [Worker-12: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /CadUsuario/src/main/java
+2023-04-19 21:33:24,914 [Worker-12: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /CadUsuario/src/main/resources
+2023-04-19 21:33:24,929 [Worker-12: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /CadUsuario/src/main/resources
+2023-04-19 21:33:24,969 [Worker-12: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /CadUsuario/src/test/java
