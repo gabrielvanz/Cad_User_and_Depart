@@ -40,3 +40,33 @@ Caused by: java.lang.Exception: File not found: C:\Users\GABRI\OneDrive\Área de 
 	... 27 common frames omitted
 2023-04-19 21:50:30,594 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
 2023-04-19 21:51:27,100 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2023-04-20 20:25:46,559 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2023-04-20 20:26:49,156 [Worker-6: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: br.edu.atitus.pooavancado:CadUsuario:0.0.1-SNAPSHOT @ C:\Users\GABRI\OneDrive\Área de Trabalho\Ciências da Computação\3° Semestre\POO - Avançada\Spring Boot + Java\CadUsuario\pom.xml.
+2023-04-20 20:26:58,440 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-04-20 20:26:58,441 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-04-20 20:26:58,447 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\GABRI\OneDrive\Área de Trabalho\Ciências da Computação\3° Semestre\POO - Avançada\Spring Boot + Java\CadUsuario\src\test\resources
+2023-04-20 20:28:32,254 [Worker-15: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: br.edu.atitus.pooavancado:CadUsuario:0.0.1-SNAPSHOT @ C:\Users\GABRI\OneDrive\Área de Trabalho\Ciências da Computação\3° Semestre\POO - Avançada\Spring Boot + Java\CadUsuario\pom.xml.
+2023-04-20 20:28:33,285 [Worker-15: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /CadUsuario/src/main/java
+2023-04-20 20:28:33,286 [Worker-15: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /CadUsuario/src/main/resources
+2023-04-20 20:28:33,303 [Worker-15: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /CadUsuario/src/main/resources
+2023-04-20 20:28:33,322 [Worker-15: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /CadUsuario/src/test/java
+2023-04-20 20:28:33,847 [Worker-15: Importing Maven projects] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 2 sec
+2023-04-24 18:10:05,201 [Worker-23: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2023-04-24 18:11:05,011 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-04-24 18:11:05,047 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-04-24 18:11:05,054 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\GABRI\OneDrive\Área de Trabalho\Ciências da Computação\3° Semestre\POO - Avançada\Spring Boot + Java\CadUsuario\src\test\resources
+2023-04-24 18:13:11,721 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-04-24 18:13:11,735 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-04-24 18:13:11,744 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\GABRI\OneDrive\Área de Trabalho\Ciências da Computação\3° Semestre\POO - Avançada\Spring Boot + Java\CadUsuario\src\test\resources
+2023-04-24 18:15:32,973 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-04-24 18:15:33,004 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-04-24 18:15:33,012 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\GABRI\OneDrive\Área de Trabalho\Ciências da Computação\3° Semestre\POO - Avançada\Spring Boot + Java\CadUsuario\src\test\resources
+2023-04-24 18:19:55,227 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-04-24 18:19:55,239 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-04-24 18:19:55,248 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\GABRI\OneDrive\Área de Trabalho\Ciências da Computação\3° Semestre\POO - Avançada\Spring Boot + Java\CadUsuario\src\test\resources
+2023-04-24 18:20:16,721 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-04-24 18:20:16,730 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-04-24 18:20:16,737 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\GABRI\OneDrive\Área de Trabalho\Ciências da Computação\3° Semestre\POO - Avançada\Spring Boot + Java\CadUsuario\src\test\resources
+2023-04-24 18:20:20,819 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-04-24 18:20:20,826 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-04-24 18:20:20,833 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\GABRI\OneDrive\Área de Trabalho\Ciências da Computação\3° Semestre\POO - Avançada\Spring Boot + Java\CadUsuario\src\test\resources
