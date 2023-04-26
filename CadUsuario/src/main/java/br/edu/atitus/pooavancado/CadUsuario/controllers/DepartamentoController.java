@@ -29,6 +29,7 @@ import br.edu.atitus.pooavancado.CadUsuario.services.DepartamentoService;
 @RequestMapping("/departamentos")
 public class DepartamentoController {
 
+	
 	@Autowired
 	private DepartamentoService departamentoService;
 	
@@ -73,14 +74,10 @@ public class DepartamentoController {
 		return ResponseEntity.status(HttpStatus.OK).body("Departamento com o Id " + id + " deletado com sucesso!");
 	}
 	
-	@PatchMapping("/status/{id}")
-	public ResponseEntity<Object> alteraStatusDepartamento(@PathVariable long id) {
-		try {
-			departamentoService.alteraStatus(id);
-		} catch (Exception e) {
-			return ResponseEntity.status(HttpStatus.BAD_REQUEST).body(e.getMessage());
-		}
-		return ResponseEntity.status(HttpStatus.OK).body("Status alteado com sucesso para o usuario com Id " + id);
+	@PatchMapping("/{id}")
+	public ResponseEntity<Object> alterarEmail(@PathVariable long id, @RequestBody String email) {
+		departamentoService.alteraEmailById(id, email);
+		return ResponseEntity.status(HttpStatus.OK).body("Email do Id " + id + " alterado para " + email);
 	}
 	
 }

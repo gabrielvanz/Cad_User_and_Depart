@@ -9,23 +9,22 @@ import org.springframework.data.jpa.repository.Modifying;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;
 import org.springframework.stereotype.Repository;
+import org.springframework.transaction.annotation.Transactional;
 
 import br.edu.atitus.pooavancado.CadUsuario.Entities.Departamento;
-import jakarta.transaction.Transactional;
 
 @Repository
 public interface DepartamentoRespository extends JpaRepository<Departamento, Long>{
 	
-	@Query(value = "update Departamento set status = not status where id = :ident", nativeQuery = true)
-	@Modifying
-	@Transactional
-	void alteraStatusById(@Param("ident") long id);
-	
-	Page<Departamento> findByNomeContainingIgnoreCase(Pageable pageable ,String nome);
+	Page<Departamento> findByNomeContainingIgnoreCase(Pageable pageable, String nome);
 	
 	List<Departamento> findByEmailContainingIgnoreCase(String email);
 	
 	boolean existsByNomeAndIdNot(String nome, long id);
+	
+	@Query(value = "update Departamento set email = :value where id = :ident", nativeQuery = true)
+	@Modifying
+	@Transactional
+	void alteraEmailById(@Param("ident") long id, @Param("value") String email);
 }
-
 

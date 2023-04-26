@@ -4,12 +4,13 @@ import java.util.Optional;
 
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
+import org.springframework.stereotype.Service;
 
 import br.edu.atitus.pooavancado.CadUsuario.Entities.Departamento;
 import br.edu.atitus.pooavancado.CadUsuario.repositories.DepartamentoRespository;
-import br.edu.atitus.pooavancado.CadUsuario.repositories.UsuarioRespository;
 import br.edu.atitus.pooavancado.CadUsuario.services.DepartamentoService;
 
+@Service
 public class DepartamentoServiceImpl implements DepartamentoService{
 
 	final DepartamentoRespository departamentoRespository;
@@ -46,12 +47,9 @@ public class DepartamentoServiceImpl implements DepartamentoService{
 	}
 
 	@Override
-	public void alteraStatus(long id) throws Exception {
-		if (!departamentoRespository.existsById(id))
-			throw new Exception("Não existe usuário com este Id");
-		departamentoRespository.alteraStatusById(id);
+	public void alteraEmailById(long id, String email) {
+		departamentoRespository.alteraEmailById(id, email);
+		
 	}
-	
-	
 	
 }

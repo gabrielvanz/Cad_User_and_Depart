@@ -16,6 +16,7 @@ public interface DepartamentoService {
 	Optional<Departamento> findById(long id);
 	
 	void deleteById(long id);
-	
-	void alteraStatus(long id) throws Exception;
+
+	void alteraEmailById(long id, String email);
+
 }
